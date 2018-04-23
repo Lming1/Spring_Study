@@ -12,6 +12,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
+//버전 오류인듯..? RunWith 사용 불가 ..
 //@RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = "/junit.xml")
 public class JUnitTest {
